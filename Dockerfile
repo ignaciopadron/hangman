@@ -1,6 +1,6 @@
 # 1. Usa una imagen oficial de Go como punto de partida
 
-FROM golang:1.22
+FROM golang:1.24.2-alpine3.21
 
 # Fuerza a Go a usar toolchain remoto si la versión local no alcanza
 ENV GOTOOLCHAIN=auto
