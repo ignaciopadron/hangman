@@ -1,13 +1,22 @@
+# Archivos binarios
 *.exe
 *.out
+
+# Archivos temporales y de log
 *.log
-*.env
-*.vs
-*.vscode
-*.dockerignore
-*.git
-*.gitignore
+
+# Configuración local
+.env
 *.project
 *.settings
-LICENSE
+
+# IDEs y editores
+.vscode/
+.vs/
+
+# Git
+.git/
+
+# Archivos innecesarios en el contenedor
 README.md
+LICENSE
