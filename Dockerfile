@@ -1,6 +1,9 @@
 # 1. Usa una imagen oficial de Go como punto de partida
 
-FROM golang:1.21
+FROM golang:1.22
+
+# Fuerza a Go a usar toolchain remoto si la versión local no alcanza
+ENV GOTOOLCHAIN=auto
 
 # 2. Crea un directorio dentro del contenedor
 

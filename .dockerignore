@@ -1,0 +1,13 @@
+*.exe
+*.out
+*.log
+*.env
+*.vs
+*.vscode
+*.dockerignore
+*.git
+*.gitignore
+*.project
+*.settings
+LICENSE
+README.md
